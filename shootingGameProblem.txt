@@ -1,0 +1,18 @@
+SHOOTING GAME:
+
+there are 'n' engineers with different skills. They are playing a game where a shooter with higher skill can kill a shooter with lower skill.Each engineer has a gun, and a gun has only a single bullet.
+Find the minimum sum of skills of the engineers left after the game is over.
+
+Sample Input:
+6
+7 1 4 2 2 4
+
+Sample Output:
+11
+
+Explaination:
+2 will kill 1
+two 4's will kill two 2's
+7 will kill one 4
+so the left one's are 4,7
+sum of skills is 4+7=11
