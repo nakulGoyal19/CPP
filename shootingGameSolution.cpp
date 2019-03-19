@@ -8,10 +8,13 @@ int comparator(const void *a,const void *b)
 int main()
 {
     int n;
+    cout<<"Enter the total no of engineers: ";
     cin>>n;
     int a[n];
+    cout<<"Enter their skills"<<endl;
     for(int i=0;i<n;i++)
         cin>>a[i];
+        cout<<endl;
         qsort(a,n,sizeof(int),comparator);
        for(int i=1;i<n;i++)
        {
@@ -28,6 +31,6 @@ int main()
        for(int i=0;i<n;i++)
         if(a[i]!=-1)
         sum+=a[i];
-       cout<<sum;
+       cout<<"Mininmum possible sum of skills of alive engineers: "<<sum;
        return 0;
 }
