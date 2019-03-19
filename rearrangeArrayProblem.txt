@@ -1,0 +1,15 @@
+Given an array of unique elements,rearrange an array such that arr[arr[i]];
+
+Sample i/p 1
+5
+2 1 5 3 4
+
+o/p
+0 1 2 3 4 5
+
+Sample i/p 2
+3
+1 4 2
+
+o/p
+0 1 2 0 4

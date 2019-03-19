@@ -1,0 +1,14 @@
+Convert given array to wave array such that 
+a[i-1]>a[i]<a[i+1]  //condition is only implemented once on every element.
+
+i/p 1
+4
+1 2 3 4
+o/p
+2 1 4 3
+
+i/p 2
+2
+0 1
+o/p
+1 0
