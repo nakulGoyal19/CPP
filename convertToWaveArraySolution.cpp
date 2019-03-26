@@ -7,7 +7,7 @@ int comparator(const void *a,const void *b)
 using namespace std;
 int main()
 {
-    int n;
+    int n,m;
     cout<<"Enter size of an array: ";
     cin>>n;
     int a[n];
@@ -15,7 +15,11 @@ int main()
     for(int i=0;i<n;i++)
         cin>>a[i];
    qsort(a,n,sizeof(int),comparator);
-    for(int i=0;i<n;i=i+2)
+   if(n%2!=0)
+  m=n-1;
+  else
+    m=n;
+    for(int i=0;i<m;i=i+2)
     {
         int t=a[i];a[i]=a[i+1];a[i+1]=t;
     }

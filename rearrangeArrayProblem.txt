@@ -1,4 +1,5 @@
 Given an array of unique elements,rearrange an array such that arr[arr[i]];
+Elements in array should be +ve.
 
 Sample i/p 1
 5
