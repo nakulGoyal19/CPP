@@ -1,0 +1,19 @@
+Inversion Count:
+
+I/P:
+5   //length of an array
+1   //elements of an array
+8
+4
+5
+2
+
+O/P:
+5
+
+Explanation:
+Swaps for 1 = 0
+Swaps for 8 = 3 i.e. {(8,4),(8,5),(8,2)}
+Swaps for 4 = 1 i.e. (4,2)
+Swaps for 5 = 1 i.e. (5,2)
+Total Swaps=3+1+1=5
